@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+
+	<body>
+		<div class="mui-off-canvas-wrap mui-draggable">
+			<!-- 菜单容器 -->
+			<aside class="mui-off-canvas-left">
+				<div class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<bar>
+							<div>请选择-位置-字号-颜色</div>
+							<select id="location" name="选择位置">
+								<option value="left-1">左一</option>
+								<option value="left-2">左二</option>
+								<option value="left-3">左三</option>
+								<option value="right-1">右一</option>
+								<option value="right-2">右二</option>
+								<option value="right-3">右三</option>
+							</select>
+							<select id="size" name="选择字号">
+								<option value="2.5">小</option>
+								<option value="3">中</option>
+								<option value="3.5">大</option>
+							</select>
+							<input type="color" name="" style="width: 7vw; height: 7vw; padding: 0; " id="color" value="" />
+							<a href="" class="push">添加</a>
+						</bar>
+						<div class="stylelist">
+							<ul>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap">
+				<!-- 主页面标题 -->
+				<header class="mui-bar mui-bar-nav">
+					<a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+					<h1 class="mui-title">Who we are 超级编辑器</h1>
+				</header>
+				<div class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div id="bcimg">
+							<div class="left-1" id="0"></div>
+							<div class="left-2" id="1"></div>
+							<div class="left-3" id="2"></div>
+							<div class="right-1" id="3"></div>
+							<div class="right-2" id="4"></div>
+							<div class="right-3" id="5"></div>
+						</div>
+						<div id="input">
+							<ul class="mui-table-view left-list">
+								<li class="mui-table-view-cell"><input type="text" name="" value="请输入左一" onfocus="if(this.value=='请输入左一'){this.value=''}" /> </li>
+								<li class="mui-table-view-cell"><input type="text" name="" value="请输入左二" onfocus="if(this.value=='请输入左二'){this.value=''}" /> </li>
+								<li class="mui-table-view-cell"><input type="text" name="" value="请输入左三" onfocus="if(this.value=='请输入左三'){this.value=''}" /> </li>
+							</ul>
+							<ul class="mui-table-view right-list">
+								<li class="mui-table-view-cell"><input type="text" name="" value="请输入右一" onfocus="if(this.value=='请输入右一'){this.value=''}" /> </li>
+								<li class="mui-table-view-cell"><input type="text" name="" value="请输入右二" onfocus="if(this.value=='请输入右二'){this.value=''}" /> </li>
+								<li class="mui-table-view-cell"><input type="text" name="" value="请输入右三" onfocus="if(this.value=='请输入右三'){this.value=''}" /> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script src="./js/index.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

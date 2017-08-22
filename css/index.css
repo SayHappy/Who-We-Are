@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 1.5625vw;
+    font-family: "Microsoft Yahei";
+}
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#bcimg{
+	background: url("./timg.jpg") no-repeat center;
+	background-size: 100% 100% ;
+	background-position-y: 0;
+	height: 70vh;
+	top:-10vh;
+	width: 100vw;
+position: absolute;
+}
+
+#bcimg>div{
+	width: 30vw;
+	height: 7vw;
+	font-size: 3em;
+	/*background: red;*/
+	position: absolute;
+	text-align: center;
+	line-height: 7vw;
+}
+
+.left-1{
+	left: 13vw;
+	top: 11.5vh;
+}
+
+.right-1{
+	right: 13vw;
+	top: 11.5vh;
+}
+
+.left-2{
+	left: 13vw;
+	top: 31vh;
+}
+.right-2{
+	right: 13vw;
+	top: 31vh;
+}
+.left-3{
+	left: 13vw;
+	top: 50vh;
+}
+.right-3{
+	right: 13vw;
+	top: 50vh;
+}
+
+#input{
+	display: flex;
+	justify-content:space-between;
+	/*bottom: 0px;*/
+	width: 100vw;
+	top: 60vh;
+	height: 200px;
+	bottom: 0;
+	position: absolute;
+}
+#input>ul{
+	width: 50%;
+	height: 100%;
+
+}
+#input>ul>li{
+	height: 60px;
+}
+button{
+	margin: 0;
+	position: absolute;
+	width: 49vw;
+	bottom: 0;
+}
+select{
+	width: 20vw;
+	height: 10vw;
+	margin: 0;
+	bottom: 5vw;
+	padding: 2vw;
+}
+/*左侧工具栏*/
+.mui-off-canvas-left{
+	background: #555;
+	width: 70vw;
+}
+bar{
+	display: block;
+	height: 20vw;
+	margin: 2vw;
+}
+bar>a{
+	display: inline-block;
+	font-size: 4vw;
+	margin-left: 10px;
+	
+}
+bar>input{
+	height: 10vw;
+}
+bar>div{
+	color: #EEEEEE;
+	line-height: 7vw;
+	font-size: 5vw;
+	font-weight: 200;
+font-family: "微软雅黑";
+}
+option{
+	font-size: 3vw;
+}
+.stylelist{
+	margin-top: 10vw;
+}
+.stylelist>ul>li{
+	border-radius: 2vw;
+	height: 10vw;
+	margin: 1vw 1vw;
+	background: white;
+	line-height: 10vw;
+	font-size: 4vw;
+	padding: .5vw;
+color: #333;	 
+
+}
+
+.stylelist>ul>li>button{
+	height: 9vw;
+	line-height: 9vw;
+	margin: 0;
+	width: 14vw;
+	padding: 0;	
+	margin-right: 2vw;
+}
+
